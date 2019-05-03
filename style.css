@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  background-color: #F9F8EB;
+  color: #F8F8F5;
+}
+.wrapper {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 400px;
+  background-color: #455D7A;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
+.title {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.display-message {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 18px;
+}
+.display-timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.timer {
+  width: 250px;
+  height: 250px;
+  background-color: #F95959;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+.btn-set {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #F8F8F5;
+  color: #D23E31;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: #E7EFF3;
+}
+.btn:focus {
+  border: none;
+  outline: none;
+}
+.start {
+  margin-right: 25px;
+}
+.work-length, .break-length {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.btn-adjusters {
+  display: flex;
+}
+.btn-adjusters button {
+  width: 30px;
+  height:30px;
+  border-radius: 100%;
+  color: #D23E31;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-adjusters button:hover {
+  background-color: #E7EFF3;
+}
+.btn-adjusters button:focus {
+  border: none;
+  outline: none;
+}
+.decrement {
+  margin-right: 10px;
+}
+.time-text {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.break-color {
+  background-color: #EDAF1F;
+}
